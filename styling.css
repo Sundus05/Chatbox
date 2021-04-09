@@ -1,0 +1,177 @@
+body{
+    background-color: #f0f2f5;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:15px;
+    box-sizing: border-box;
+}   
+.maincontainer{
+    display: -webkit-flex; 
+    width: 270px;
+    height: 320px;
+    border: 1px solid #e5e5e5;
+    flex-direction: column;   
+    flex-wrap: wrap;
+    position: absolute;
+    left: 75%;
+    bottom: 2%; 
+    border-radius: 5px;
+    
+}
+
+h4{
+    margin-top: -70px;
+    display: inline-block;
+}
+img {
+    height: 17px;
+}
+.profile{
+    height: 28px;
+    width: 50%;
+    padding: 0;   
+    display: flex;
+
+}
+.profile:hover{
+    opacity: 2px;
+    background-color:lightgray;
+    border-radius: 5px;
+}
+.header{
+    border: 1px solid #e5e5e5;
+    height: 32px;
+    width: 270px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover{
+    opacity: 2px;
+    background-color:lightgray;
+    border-radius: 5px;
+    
+}
+.one,
+.two,
+.three,
+.four,
+.five{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+}
+
+.navbaricons{
+    height: 8px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 2px;
+    
+}
+
+
+.chatbox{
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    flex: 1;
+    height: 70px;
+    overflow: scroll;
+    box-sizing: border-box;
+    
+}
+.footer{
+    border: 1px solid #e5e5e5;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+
+}
+
+.message{
+    border: 1px solid #e5e5e5;
+    height: 80px;
+}
+#text{
+    height: 12px;
+    width: 250px ;
+    outline: none;
+    padding:5px;
+    border-radius: 50px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border: none;
+   
+
+}
+
+
+
+.iconlist li{
+    list-style-type: none;  
+}
+
+.iconlist{
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;  
+    background-color:#ffffff;
+    clear: both;
+    
+}
+#user1{
+    float: left;
+    margin: 5px;
+    margin-right: 2px;
+    display: table;
+    clear: both;
+    background-color: #e4e6eb;
+
+}
+#user2{
+    margin-left: 2px;
+    padding: 2px;
+    float: right;
+    margin: 5px;
+    display: table;
+    clear: both;
+    background-color:#0084ff;
+    color: white;
+}
+#user1,
+#user2{
+   
+    border-radius: 6px;
+    max-width: 70%;
+    padding: 5px;
+
+}
+#user1:hover,
+#user2:hover{
+opacity: 2px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .maincontainer{
+        width: 95%;
+        left: 0;
+        bottom: 0;
+
+    }
+
+}
