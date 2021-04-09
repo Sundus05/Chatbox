@@ -87,6 +87,7 @@ img {
     height: 70px;
     overflow: scroll;
     box-sizing: border-box;
+    overflow-x: hidden;
     
 }
 .footer{
@@ -103,7 +104,17 @@ img {
 .message{
     border: 1px solid #e5e5e5;
     height: 80px;
+    
 }
+
+h4{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+  
+}
+
+
 #text{
     height: 12px;
     width: 250px ;
